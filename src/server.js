@@ -6,7 +6,7 @@ const db = require('./db/connection');
 const PORT = process.env.PORT || 5000;
 
 // Test database connection
-db.connect()
+db.connect() 
   .then(() => {
     logger.info('Database connected successfully');
     
