@@ -16,6 +16,10 @@ const applicationRoutes = require('./routes/application.routes');
 const reviewRoutes = require('./routes/review.routes');
 const notificationRoutes = require('./routes/notification.routes');
 
+// Admin routes
+const adminRoutes = require('./routes/admin.routes');
+
+
 // Initialize express app
 const app = express();
 
@@ -61,6 +65,7 @@ app.get('/health', (req, res) => {
   res.status(200).json({ message: 'Server is running' });
 });
 
+app.use('/api/admin', adminRoutes);
 // 404 Handler
 app.use((req, res, next) => {
   res.status(404).json({ 
