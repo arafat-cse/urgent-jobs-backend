@@ -1,0 +1,5 @@
+{"error":"no pg_hba.conf entry for host \"103.110.217.192\", user \"urgent_jobs_db_user\", database \"urgent_jobs_db\", SSL off","level":"error","message":"Database connection error","service":"urgent-jobs-api","timestamp":"2025-04-29 16:01:29"}
+{"error":"no pg_hba.conf entry for host \"103.110.217.192\", user \"urgent_jobs_db_user\", database \"urgent_jobs_db\", SSL off","level":"error","message":"Database connection error","service":"urgent-jobs-api","timestamp":"2025-04-29 16:02:44"}
+{"error":"no pg_hba.conf entry for host \"103.110.217.192\", user \"urgent_jobs_db_user\", database \"urgent_jobs_db\", SSL off","level":"error","message":"Database connection error","service":"urgent-jobs-api","timestamp":"2025-04-29 16:03:24"}
+{"level":"info","message":"Database connected successfully","service":"urgent-jobs-api","timestamp":"2025-04-29 16:05:43"}
+{"level":"info","message":"Server running in development mode on port 5002","service":"urgent-jobs-api","timestamp":"2025-04-29 16:05:43"}
