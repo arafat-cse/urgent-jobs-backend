@@ -1,5 +1,0 @@
-{"error":"no pg_hba.conf entry for host \"103.110.217.192\", user \"urgent_jobs_db_user\", database \"urgent_jobs_db\", SSL off","level":"error","message":"Database connection error","service":"urgent-jobs-api","timestamp":"2025-04-29 16:01:29"}
-{"error":"no pg_hba.conf entry for host \"103.110.217.192\", user \"urgent_jobs_db_user\", database \"urgent_jobs_db\", SSL off","level":"error","message":"Database connection error","service":"urgent-jobs-api","timestamp":"2025-04-29 16:02:44"}
-{"error":"no pg_hba.conf entry for host \"103.110.217.192\", user \"urgent_jobs_db_user\", database \"urgent_jobs_db\", SSL off","level":"error","message":"Database connection error","service":"urgent-jobs-api","timestamp":"2025-04-29 16:03:24"}
-{"error":{"code":"28000","file":"auth.c","length":168,"line":"495","name":"error","routine":"ClientAuthentication","severity":"FATAL"},"level":"error","message":"Error checking or creating database","service":"urgent-jobs-api","timestamp":"2025-04-29 16:35:12"}
-{"error":{},"level":"error","message":"Error setting up database tables","service":"urgent-jobs-api","timestamp":"2025-04-29 16:36:24"}
